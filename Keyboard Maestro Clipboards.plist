@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>Data</key>
+				<data>
+				RW1wdHkgQ2xpcGJvYXJkIFRleHQ=
+				</data>
+				<key>Key</key>
+				<string>public.utf8-plain-text</string>
+			</dict>
+		</array>
+		<key>Date</key>
+		<date>2017-11-10T03:34:24Z</date>
+		<key>Name</key>
+		<string>Unnamed Named Clipboard</string>
+		<key>Source</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>UID</key>
+		<string>570454EF-05E6-4071-981F-1E362D0EE5EE</string>
+	</dict>
+</array>
+</plist>

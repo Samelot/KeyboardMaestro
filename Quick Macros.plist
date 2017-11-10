@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>24C0A767-F086-4495-A7AF-6431D67CA3C1</key>
+	<array>
+		<dict>
+			<key>MacroActionType</key>
+			<string>Semaphore</string>
+			<key>SemaphoreAction</key>
+			<string>Lock</string>
+			<key>SemaphoreName</key>
+			<string>Quick Record 24C0A767-F086-4495-A7AF-6431D67CA3C1</string>
+			<key>TimeOutAbortsMacro</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
