@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.BluetoothSetupAssistant</string>
+		<key>Name</key>
+		<string>Bluetooth Setup Assistant</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Bluetooth Setup Assistant.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.github.atom</string>
+		<key>Name</key>
+		<string>Atom</string>
+		<key>NewFile</key>
+		<string>/Applications/Atom.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.sublimetext.3</string>
+		<key>Name</key>
+		<string>Sublime Text</string>
+		<key>NewFile</key>
+		<string>/Applications/Sublime Text.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.Photoshop</string>
+		<key>Name</key>
+		<string>Adobe Photoshop CC 2017</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ActivityMonitor</string>
+		<key>Name</key>
+		<string>Activity Monitor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Activity Monitor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.googlecode.iterm2</string>
+		<key>Name</key>
+		<string>iTerm</string>
+		<key>NewFile</key>
+		<string>/Applications/iTerm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.cockos.reaper</string>
+		<key>Name</key>
+		<string>REAPER64</string>
+		<key>NewFile</key>
+		<string>/Applications/REAPER64.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.swinsian.Swinsian</string>
+		<key>Name</key>
+		<string>Swinsian</string>
+		<key>NewFile</key>
+		<string>/Applications/Swinsian.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.ableton.live</string>
+		<key>Name</key>
+		<string>Ableton Live 9 Suite</string>
+		<key>NewFile</key>
+		<string>/Applications/Ableton Live 9 Suite.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.pqrs.Karabiner-Elements-Preferences-Window</string>
+		<key>Name</key>
+		<string>Karabiner-Elements</string>
+		<key>NewFile</key>
+		<string>/Applications/Karabiner-Elements.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.livereload.LiveReload</string>
+		<key>Name</key>
+		<string>LiveReload</string>
+		<key>NewFile</key>
+		<string>/Applications/LiveReload.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.illustrator</string>
+		<key>Name</key>
+		<string>Adobe Illustrator CC 2017</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Illustrator CC 2017/Adobe Illustrator.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.android.mtpviewer</string>
+		<key>Name</key>
+		<string>Android File Transfer</string>
+		<key>NewFile</key>
+		<string>/Applications/Android File Transfer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.finder</string>
+		<key>Name</key>
+		<string>Finder</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>NewFile</key>
+		<string>/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>java</string>
+		<key>NewFile</key>
+		<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.eltima.SyncMate</string>
+		<key>Name</key>
+		<string>SyncMate</string>
+		<key>NewFile</key>
+		<string>/Applications/SyncMate.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.bittorrent.uTorrent</string>
+		<key>Name</key>
+		<string>uTorrent</string>
+		<key>NewFile</key>
+		<string>/Applications/uTorrent.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.Tresrrr.All2MP3</string>
+		<key>Name</key>
+		<string>All2MP3</string>
+		<key>NewFile</key>
+		<string>/Applications/All2MP3.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.installer</string>
+		<key>Name</key>
+		<string>Installer</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Installer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>Archive Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iTunes</string>
+		<key>Name</key>
+		<string>iTunes</string>
+		<key>NewFile</key>
+		<string>/Applications/iTunes.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.print.PrinterProxy</string>
+		<key>Name</key>
+		<string>Canon MG3600 series</string>
+		<key>NewFile</key>
+		<string>~/Library/Printers/Canon MG3600 series.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.print.PrinterProxy</string>
+		<key>Name</key>
+		<string>Photosmart 6520 series [3009ED]</string>
+		<key>NewFile</key>
+		<string>~/Library/Printers/Photosmart 6520 series [3009ED].app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.godotengine.godot</string>
+		<key>Name</key>
+		<string>Godot</string>
+		<key>NewFile</key>
+		<string>/Applications/Godot.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.skype.skype</string>
+		<key>Name</key>
+		<string>Skype</string>
+		<key>NewFile</key>
+		<string>/Applications/Skype.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.blenderfoundation.blender</string>
+		<key>Name</key>
+		<string>Blender2.78</string>
+		<key>NewFile</key>
+		<string>/Applications/Blender2.78.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Terminal</string>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Terminal.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>wine</string>
+		<key>NewFile</key>
+		<string>/Applications/Wine.app/Contents/Resources/bin/wine</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.coronalabs.Corona_Simulator</string>
+		<key>Name</key>
+		<string>Corona Simulator</string>
+		<key>NewFile</key>
+		<string>/Applications/CoronaSDK/Corona Simulator.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>cx.c3.theunarchiver</string>
+		<key>Name</key>
+		<string>The Unarchiver</string>
+		<key>NewFile</key>
+		<string>/Applications/The Unarchiver.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.DigiDNA.iMazing2Mac</string>
+		<key>Name</key>
+		<string>iMazing 2</string>
+		<key>NewFile</key>
+		<string>/Applications/iMazing 2.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Photos</string>
+		<key>Name</key>
+		<string>Photos</string>
+		<key>NewFile</key>
+		<string>/Applications/Photos.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.example.SoulseekQt</string>
+		<key>Name</key>
+		<string>SoulseekQt</string>
+		<key>NewFile</key>
+		<string>/Applications/SoulseekQt.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Disk-Utility</string>
+		<key>Name</key>
+		<string>Disk Utility</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Disk Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.appstore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.videolan.vlc</string>
+		<key>Name</key>
+		<string>VLC</string>
+		<key>NewFile</key>
+		<string>/Applications/VLC.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.QuickTimePlayerX</string>
+		<key>Name</key>
+		<string>QuickTime Player</string>
+		<key>NewFile</key>
+		<string>/Applications/QuickTime Player.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.obsproject.obs-studio</string>
+		<key>Name</key>
+		<string>OBS</string>
+		<key>NewFile</key>
+		<string>/Applications/OBS.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.unity3d.UnityEditor5.x</string>
+		<key>Name</key>
+		<string>Unity</string>
+		<key>NewFile</key>
+		<string>/Applications/Unity/Unity.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.unity.monodevelop</string>
+		<key>Name</key>
+		<string>MonoDevelop</string>
+		<key>NewFile</key>
+		<string>/Applications/Unity/MonoDevelop.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.PDApp</string>
+		<key>Name</key>
+		<string>PDApp</string>
+		<key>NewFile</key>
+		<string>/Library/Application Support/Adobe/OOBE/PDApp/core/PDApp.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.backup42.desktop</string>
+		<key>Name</key>
+		<string>CrashPlan</string>
+		<key>NewFile</key>
+		<string>/Applications/CrashPlan.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.sourceforge.kid3</string>
+		<key>Name</key>
+		<string>Kid3</string>
+		<key>NewFile</key>
+		<string>/Applications/kid3.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome.app.Default-gidgenkbbabolejbgbpnhbimgjbffefm</string>
+		<key>Name</key>
+		<string>Vysor</string>
+		<key>NewFile</key>
+		<string>~/Applications/Chrome Apps.localized/Default gidgenkbbabolejbgbpnhbimgjbffefm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.TextEdit</string>
+		<key>Name</key>
+		<string>TextEdit</string>
+		<key>NewFile</key>
+		<string>/Applications/TextEdit.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.PDApp</string>
+		<key>Name</key>
+		<string>Adobe Application Manager</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Adobe Application Manager/core/Adobe Application Manager.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.FontBook</string>
+		<key>Name</key>
+		<string>Font Book</string>
+		<key>NewFile</key>
+		<string>/Applications/Font Book.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>de.code-and-web.TexturePacker</string>
+		<key>Name</key>
+		<string>TexturePacker</string>
+		<key>NewFile</key>
+		<string>/Applications/TexturePacker.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.allegorithmic.substance-designer</string>
+		<key>Name</key>
+		<string>Substance Designer</string>
+		<key>NewFile</key>
+		<string>/Applications/Substance Designer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.allegorithmic.substance-player</string>
+		<key>Name</key>
+		<string>Substance Player</string>
+		<key>NewFile</key>
+		<string>/Applications/Substance Player.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.pqrs.Karabiner-EventViewer</string>
+		<key>Name</key>
+		<string>Karabiner-EventViewer</string>
+		<key>NewFile</key>
+		<string>/Applications/Karabiner-EventViewer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.ZeroBrane.ZeroBraneStudio</string>
+		<key>Name</key>
+		<string>ZeroBraneStudio</string>
+		<key>NewFile</key>
+		<string>/Applications/ZeroBraneStudio.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Image_Capture</string>
+		<key>Name</key>
+		<string>Image Capture</string>
+		<key>NewFile</key>
+		<string>/Applications/Image Capture.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.runningwithcrayons.Alfred-Preferences</string>
+		<key>Name</key>
+		<string>Alfred Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/Alfred 2.app/Contents/Preferences/Alfred Preferences.app</string>
+	</dict>
+</array>
+</plist>

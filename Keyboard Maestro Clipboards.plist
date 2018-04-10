@@ -23,5 +23,68 @@
 		<key>UID</key>
 		<string>570454EF-05E6-4071-981F-1E362D0EE5EE</string>
 	</dict>
+	<dict>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>Data</key>
+				<data>
+				RW1wdHkgQ2xpcGJvYXJkIFRleHQ=
+				</data>
+				<key>Key</key>
+				<string>public.utf8-plain-text</string>
+			</dict>
+		</array>
+		<key>Date</key>
+		<date>2018-04-10T14:08:38Z</date>
+		<key>Name</key>
+		<string>Temporary</string>
+		<key>Source</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>UID</key>
+		<string>020A05C3-3FBB-4372-A0AA-A0A563D8C0C7</string>
+	</dict>
+	<dict>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>Data</key>
+				<data>
+				RW1wdHkgQ2xpcGJvYXJkIFRleHQ=
+				</data>
+				<key>Key</key>
+				<string>public.utf8-plain-text</string>
+			</dict>
+		</array>
+		<key>Date</key>
+		<date>2018-04-10T14:08:38Z</date>
+		<key>Name</key>
+		<string>Clipboard 4</string>
+		<key>Source</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>UID</key>
+		<string>23E099F0-2033-462E-969E-90EEFAD91588</string>
+	</dict>
+	<dict>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>Data</key>
+				<data>
+				RW1wdHkgQ2xpcGJvYXJkIFRleHQ=
+				</data>
+				<key>Key</key>
+				<string>public.utf8-plain-text</string>
+			</dict>
+		</array>
+		<key>Date</key>
+		<date>2018-04-10T14:08:38Z</date>
+		<key>Name</key>
+		<string>TeX Clipboard</string>
+		<key>Source</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>UID</key>
+		<string>01CFD9DC-8530-42CB-B634-DDAC4D837AF8</string>
+	</dict>
 </array>
 </plist>
