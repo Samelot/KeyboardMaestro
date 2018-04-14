@@ -17,8 +17,6 @@ import io
 from os import listdir
 from os.path import isfile, join
 
-home = os.path.expanduser("~/_dev/blendertube.github.io/_posts")
-
 def convert_yt_title(d):
     title = d.replace(' - ', '-')
     title = title.replace(' ', '-')
@@ -35,7 +33,8 @@ def convert_yt_date(d):
     return date
 
 def convert_yt_duration(d):
-    length = d
+    int_seconds = int(round(float(d)))
+    length = str(datetime.timedelta(seconds=int_seconds))
     return length
 
 '''
@@ -47,9 +46,8 @@ https://www.youtube.com/watch?v=5P04TvRSwyk
 476.801
 '''
 
-def parse_video_data(d):
+def handle_video_data(d):
     video_data_array = d.split('\n')
-
     video_title = video_data_array[0]
     video_id = convert_yt_title(video_title)
     video_date = convert_yt_date(video_data_array[1])
@@ -57,37 +55,45 @@ def parse_video_data(d):
     channel_url = video_data_array[3]
     video_url = video_data_array[4]
     video_length = convert_yt_duration(video_data_array[5])
-
     video_data_array = []
     video_data_array = [video_title, video_id, video_date, video_creator, channel_url, video_url, video_length]
-    print(video_data_array)
+    return video_data_array
 
-    '''
-    with open("2011-05-26-60 Snap and AlignTools.md") as search:
-        url = ''
-        for line in search:
-            if re.search('video_link:', line):
-                url = line.rstrip()
-        url = url.split('video_link:')[1].lstrip()
-        print(url)
+def create_new_blog_post(d):
+    home = os.path.expanduser("~/_dev/blendertube.github.io/_posts")
+    
+    new_file = d[2] + "-" + d[1] +  ".md"
+    
+    blog_post_exists = 0
+    blog_posts = [f for f in listdir(home) if isfile(join(home, f)) and f.endswith(".md")]
+    for f in blog_posts:
+        if f == new_file:
+            blog_post_exists = 1
 
-    text = text.replace(' - ', '-')
-    text = text.replace(' ', '-')
-    text = ''.join(c for c in text if c.isalnum() or c =='-' or c =='_')
-    video_title = text.lower()
-    if not os.path.exists(video_title):
-        os.makedirs(video_title)
-    '''
+    if blog_post_exists == 0:
+        new_blog_post = open(join(home, new_file),"w+")
+        new_blog_post.write("---\n")
+        new_blog_post.write("layout: blogpost\n")
+        new_blog_post.write("category: blog\n")
+        new_blog_post.write("video_topic: x\n")
+        new_blog_post.write("video_title: " + d[0] + "\n")
+        new_blog_post.write("video_id: " + d[1] + "\n")
+        new_blog_post.write("video_date: " + d[2] + "\n")
+        new_blog_post.write("video_creator: " + d[3] + "\n")
+        new_blog_post.write("channel_url: " + d[4] + "\n")
+        new_blog_post.write("video_url: " + d[5] + "\n")
+        new_blog_post.write("video_length: " + d[6] + "\n")
+        new_blog_post.write("language_audio: English\n")
+        new_blog_post.write("language_subs: x\n")
+        new_blog_post.write("blender_version: 2.78\n")
+        new_blog_post.write("tags_software: x\n")
+        new_blog_post.write("---\n")
+        new_blog_post.close()
+        return "creating file... " + join(home, new_file)
+    else:
+        return "existing file... " + join(home, new_file)
 
-def create_new_blog_post():
-    isFile = os.path.isfile(join(home, "shamabi.md"))
-    print(isFile)
-    # blog_posts = [f for f in listdir(home) if isfile(join(home, f)) and f.endswith(".md")]
-    # for f in blog_posts:
-        # print(f)
 
-
-        
 def check_arg(args=None):
 
 # Command line options
@@ -103,5 +109,8 @@ def check_arg(args=None):
 
 if __name__ == '__main__':
     data = check_arg(sys.argv[1:])
-    parse_video_data(data)
-    # create_new_blog_post()
+    new_video_data = handle_video_data(data)
+    new_path = create_new_blog_post(new_video_data)
+    if new_path:
+        print(new_path)
+        sys.exit(0)

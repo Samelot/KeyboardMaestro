@@ -4,51 +4,27 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.BluetoothSetupAssistant</string>
+		<string>com.stairways.keyboardmaestro.editor</string>
 		<key>Name</key>
-		<string>Bluetooth Setup Assistant</string>
+		<string>Keyboard Maestro</string>
 		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Bluetooth Setup Assistant.app</string>
+		<string>/Applications/Keyboard Maestro.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.github.atom</string>
+		<string>org.pqrs.Karabiner-Elements-Preferences-Window</string>
 		<key>Name</key>
-		<string>Atom</string>
+		<string>Karabiner-Elements</string>
 		<key>NewFile</key>
-		<string>/Applications/Atom.app</string>
+		<string>/Applications/Karabiner-Elements.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.sublimetext.3</string>
+		<string>com.apple.finder</string>
 		<key>Name</key>
-		<string>Sublime Text</string>
+		<string>Finder</string>
 		<key>NewFile</key>
-		<string>/Applications/Sublime Text.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Preview</string>
-		<key>Name</key>
-		<string>Preview</string>
-		<key>NewFile</key>
-		<string>/Applications/Preview.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.adobe.Photoshop</string>
-		<key>Name</key>
-		<string>Adobe Photoshop CC 2017</string>
-		<key>NewFile</key>
-		<string>/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.ActivityMonitor</string>
-		<key>Name</key>
-		<string>Activity Monitor</string>
-		<key>NewFile</key>
-		<string>/Applications/Utilities/Activity Monitor.app</string>
+		<string>/System/Library/CoreServices/Finder.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -60,11 +36,19 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.stairways.keyboardmaestro.editor</string>
+		<string>com.sublimetext.3</string>
 		<key>Name</key>
-		<string>Keyboard Maestro</string>
+		<string>Sublime Text</string>
 		<key>NewFile</key>
-		<string>/Applications/Keyboard Maestro.app</string>
+		<string>/Applications/Sublime Text.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -76,11 +60,67 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.cockos.reaper</string>
+		<string>com.apple.Console</string>
 		<key>Name</key>
-		<string>REAPER64</string>
+		<string>Console</string>
 		<key>NewFile</key>
-		<string>/Applications/REAPER64.app</string>
+		<string>/Applications/Utilities/Console.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.TextEdit</string>
+		<key>Name</key>
+		<string>TextEdit</string>
+		<key>NewFile</key>
+		<string>/Applications/TextEdit.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.Photoshop</string>
+		<key>Name</key>
+		<string>Adobe Photoshop CC 2017</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.BluetoothSetupAssistant</string>
+		<key>Name</key>
+		<string>Bluetooth Setup Assistant</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Bluetooth Setup Assistant.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.DigiDNA.iMazing2Mac</string>
+		<key>Name</key>
+		<string>iMazing 2</string>
+		<key>NewFile</key>
+		<string>/Applications/iMazing 2.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>Archive Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.github.atom</string>
+		<key>Name</key>
+		<string>Atom</string>
+		<key>NewFile</key>
+		<string>/Applications/Atom.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -100,11 +140,19 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>org.pqrs.Karabiner-Elements-Preferences-Window</string>
+		<string>com.cockos.reaper</string>
 		<key>Name</key>
-		<string>Karabiner-Elements</string>
+		<string>REAPER64</string>
 		<key>NewFile</key>
-		<string>/Applications/Karabiner-Elements.app</string>
+		<string>/Applications/REAPER64.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ActivityMonitor</string>
+		<key>Name</key>
+		<string>Activity Monitor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Activity Monitor.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -113,14 +161,6 @@
 		<string>LiveReload</string>
 		<key>NewFile</key>
 		<string>/Applications/LiveReload.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.google.Chrome</string>
-		<key>Name</key>
-		<string>Google Chrome</string>
-		<key>NewFile</key>
-		<string>/Applications/Google Chrome.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -137,14 +177,6 @@
 		<string>Android File Transfer</string>
 		<key>NewFile</key>
 		<string>/Applications/Android File Transfer.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.finder</string>
-		<key>Name</key>
-		<string>Finder</string>
-		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Finder.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -199,14 +231,6 @@
 		<string>Installer</string>
 		<key>NewFile</key>
 		<string>/System/Library/CoreServices/Installer.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.archiveutility</string>
-		<key>Name</key>
-		<string>Archive Utility</string>
-		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -285,14 +309,6 @@
 		<string>The Unarchiver</string>
 		<key>NewFile</key>
 		<string>/Applications/The Unarchiver.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.DigiDNA.iMazing2Mac</string>
-		<key>Name</key>
-		<string>iMazing 2</string>
-		<key>NewFile</key>
-		<string>/Applications/iMazing 2.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -397,14 +413,6 @@
 		<string>Vysor</string>
 		<key>NewFile</key>
 		<string>~/Applications/Chrome Apps.localized/Default gidgenkbbabolejbgbpnhbimgjbffefm.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.TextEdit</string>
-		<key>Name</key>
-		<string>TextEdit</string>
-		<key>NewFile</key>
-		<string>/Applications/TextEdit.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
