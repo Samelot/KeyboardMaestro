@@ -8,7 +8,7 @@ import glob
 import math
 import re
 import datetime
-# from datetime import date
+import unicodedata
 
 import json
 from collections import OrderedDict
@@ -16,6 +16,17 @@ import io
 
 from os import listdir
 from os.path import isfile, join
+
+def normalize_char(c):
+    try:
+        cname = unicodedata.name(c)
+        cname = cname[:cname.index(' WITH')]
+        return unicodedata.lookup(cname)
+    except (ValueError, KeyError):
+        return c
+
+def normalize(s):
+    return ''.join(normalize_char(c) for c in s)        
 
 def convert_yt_title(d):
     title = d.replace(' - ', '-')
@@ -31,6 +42,11 @@ def convert_yt_date(d):
     # print(day)
     date = datetime.date(int(year),yt_months_array[month],int(day)).strftime('%Y-%m-%d')
     return date
+
+def convert_yt_creator(d):
+    # https://stackoverflow.com/questions/8935111/translating-letters-not-in-7bit-ascii-to-ascii-like-%C5%84-to-n-and-%C4%85-to-a
+    creator = normalize(d)
+    return creator
 
 def convert_yt_duration(d):
     int_seconds = int(round(float(d)))
@@ -51,7 +67,7 @@ def handle_video_data(d):
     video_title = video_data_array[0]
     video_id = convert_yt_title(video_title)
     video_date = convert_yt_date(video_data_array[1])
-    video_creator = video_data_array[2]
+    video_creator = convert_yt_creator(video_data_array[2])
     channel_url = video_data_array[3]
     video_url = video_data_array[4]
     video_length = convert_yt_duration(video_data_array[5])

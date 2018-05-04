@@ -4,6 +4,134 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.Roblox.RobloxStudio</string>
+		<key>Name</key>
+		<string>RobloxStudio</string>
+		<key>NewFile</key>
+		<string>/Applications/RobloxStudio.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.cockos.reaper</string>
+		<key>Name</key>
+		<string>REAPER64</string>
+		<key>NewFile</key>
+		<string>/Applications/REAPER64.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.github.atom</string>
+		<key>Name</key>
+		<string>Atom</string>
+		<key>NewFile</key>
+		<string>/Applications/Atom.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.sublimetext.3</string>
+		<key>Name</key>
+		<string>Sublime Text</string>
+		<key>NewFile</key>
+		<string>/Applications/Sublime Text.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.BluetoothSetupAssistant</string>
+		<key>Name</key>
+		<string>Bluetooth Setup Assistant</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Bluetooth Setup Assistant.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.googlecode.iterm2</string>
+		<key>Name</key>
+		<string>iTerm</string>
+		<key>NewFile</key>
+		<string>/Applications/iTerm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.swinsian.Swinsian</string>
+		<key>Name</key>
+		<string>Swinsian</string>
+		<key>NewFile</key>
+		<string>/Applications/Swinsian.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.bittorrent.uTorrent</string>
+		<key>Name</key>
+		<string>uTorrent</string>
+		<key>NewFile</key>
+		<string>/Applications/uTorrent.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>Archive Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.ableton.live</string>
+		<key>Name</key>
+		<string>Ableton Live 9 Suite</string>
+		<key>NewFile</key>
+		<string>/Applications/Ableton Live 9 Suite.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.videolan.vlc</string>
+		<key>Name</key>
+		<string>VLC</string>
+		<key>NewFile</key>
+		<string>/Applications/VLC.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.Photoshop</string>
+		<key>Name</key>
+		<string>Adobe Photoshop CC 2017</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.DigiDNA.iMazing2Mac</string>
+		<key>Name</key>
+		<string>iMazing 2</string>
+		<key>NewFile</key>
+		<string>/Applications/iMazing 2.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.stairways.keyboardmaestro.editor</string>
 		<key>Name</key>
 		<string>Keyboard Maestro</string>
@@ -28,38 +156,6 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.googlecode.iterm2</string>
-		<key>Name</key>
-		<string>iTerm</string>
-		<key>NewFile</key>
-		<string>/Applications/iTerm.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.sublimetext.3</string>
-		<key>Name</key>
-		<string>Sublime Text</string>
-		<key>NewFile</key>
-		<string>/Applications/Sublime Text.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.google.Chrome</string>
-		<key>Name</key>
-		<string>Google Chrome</string>
-		<key>NewFile</key>
-		<string>/Applications/Google Chrome.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.systempreferences</string>
-		<key>Name</key>
-		<string>System Preferences</string>
-		<key>NewFile</key>
-		<string>/Applications/System Preferences.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.apple.Console</string>
 		<key>Name</key>
 		<string>Console</string>
@@ -68,83 +164,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.Preview</string>
-		<key>Name</key>
-		<string>Preview</string>
-		<key>NewFile</key>
-		<string>/Applications/Preview.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.apple.TextEdit</string>
 		<key>Name</key>
 		<string>TextEdit</string>
 		<key>NewFile</key>
 		<string>/Applications/TextEdit.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.adobe.Photoshop</string>
-		<key>Name</key>
-		<string>Adobe Photoshop CC 2017</string>
-		<key>NewFile</key>
-		<string>/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.BluetoothSetupAssistant</string>
-		<key>Name</key>
-		<string>Bluetooth Setup Assistant</string>
-		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Bluetooth Setup Assistant.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.DigiDNA.iMazing2Mac</string>
-		<key>Name</key>
-		<string>iMazing 2</string>
-		<key>NewFile</key>
-		<string>/Applications/iMazing 2.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.archiveutility</string>
-		<key>Name</key>
-		<string>Archive Utility</string>
-		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.github.atom</string>
-		<key>Name</key>
-		<string>Atom</string>
-		<key>NewFile</key>
-		<string>/Applications/Atom.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.swinsian.Swinsian</string>
-		<key>Name</key>
-		<string>Swinsian</string>
-		<key>NewFile</key>
-		<string>/Applications/Swinsian.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.ableton.live</string>
-		<key>Name</key>
-		<string>Ableton Live 9 Suite</string>
-		<key>NewFile</key>
-		<string>/Applications/Ableton Live 9 Suite.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.cockos.reaper</string>
-		<key>Name</key>
-		<string>REAPER64</string>
-		<key>NewFile</key>
-		<string>/Applications/REAPER64.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -199,14 +223,6 @@
 		<string>SyncMate</string>
 		<key>NewFile</key>
 		<string>/Applications/SyncMate.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.bittorrent.uTorrent</string>
-		<key>Name</key>
-		<string>uTorrent</string>
-		<key>NewFile</key>
-		<string>/Applications/uTorrent.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -341,14 +357,6 @@
 		<string>App Store</string>
 		<key>NewFile</key>
 		<string>/Applications/App Store.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>org.videolan.vlc</string>
-		<key>Name</key>
-		<string>VLC</string>
-		<key>NewFile</key>
-		<string>/Applications/VLC.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
