@@ -35,10 +35,6 @@ def get_yt_video_url(file):
 	if os.path.dirname(file) != os.path.expanduser("~/_dev/blendertube.github.io/_posts"):
 		return False
 
-	# f = codecs.open(file, 'r', 'utf-8')
-	# for line in f:
-	# 	print(line)
-
 	with codecs.open(file, 'r', 'utf-8') as search:
 		for line in search:
 			try:
@@ -51,24 +47,6 @@ def get_yt_video_url(file):
 		video_url = video_url.split('video_url:')[1].lstrip()
 		video_id = video_id.split('video_id:')[1].lstrip()
 	return [video_url, video_id]
-
-	'''
-	with open(file, 'r', encoding="utf-8") as search:
-		for lines in search:
-			if not lines:
-				break
-			for line in lines:
-				print(line)
-	'''
-	# with open(file) as search:
-	# 	for line in search:
-	# 		if re.search('video_url:', line):
-	# 			video_url = line.rstrip()
-	# 		if re.search('video_id:', line):
-	# 			video_id = line.rstrip()				
-	# 	video_url = video_url.split('video_url:')[1].lstrip()
-	# 	video_id = video_id.split('video_id:')[1].lstrip()
-	# return [video_url, video_id]
 
 def download_video(url):
 	cmd = ['youtube-dl', '-f', '22', '-o', yt_video_out, str(url)]

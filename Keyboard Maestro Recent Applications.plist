@@ -4,6 +4,86 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.github.atom</string>
+		<key>Name</key>
+		<string>Atom</string>
+		<key>NewFile</key>
+		<string>/Applications/Atom.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.sandstudio.airdroid</string>
+		<key>Name</key>
+		<string>AirDroid</string>
+		<key>NewFile</key>
+		<string>/Applications/AirDroid.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.Roblox.RobloxStudio</string>
+		<key>Name</key>
+		<string>RobloxStudio</string>
+		<key>NewFile</key>
+		<string>/Applications/RobloxStudio.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.pqrs.Karabiner-Elements-Preferences-Window</string>
+		<key>Name</key>
+		<string>Karabiner-Elements</string>
+		<key>NewFile</key>
+		<string>/Applications/Karabiner-Elements.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.swinsian.Swinsian</string>
+		<key>Name</key>
+		<string>Swinsian</string>
+		<key>NewFile</key>
+		<string>/Applications/Swinsian.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.Tresrrr.All2MP3</string>
+		<key>Name</key>
+		<string>All2MP3</string>
+		<key>NewFile</key>
+		<string>/Applications/All2MP3.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ActivityMonitor</string>
+		<key>Name</key>
+		<string>Activity Monitor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Activity Monitor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.appstore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.apple.finder</string>
 		<key>Name</key>
 		<string>Finder</string>
@@ -17,30 +97,6 @@
 		<string>Google Chrome</string>
 		<key>NewFile</key>
 		<string>/Applications/Google Chrome.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.swinsian.Swinsian</string>
-		<key>Name</key>
-		<string>Swinsian</string>
-		<key>NewFile</key>
-		<string>/Applications/Swinsian.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.appstore</string>
-		<key>Name</key>
-		<string>App Store</string>
-		<key>NewFile</key>
-		<string>/Applications/App Store.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.sandstudio.airdroid</string>
-		<key>Name</key>
-		<string>AirDroid</string>
-		<key>NewFile</key>
-		<string>/Applications/AirDroid.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -89,22 +145,6 @@
 		<string>Archive Utility</string>
 		<key>NewFile</key>
 		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.systempreferences</string>
-		<key>Name</key>
-		<string>System Preferences</string>
-		<key>NewFile</key>
-		<string>/Applications/System Preferences.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.github.atom</string>
-		<key>Name</key>
-		<string>Atom</string>
-		<key>NewFile</key>
-		<string>/Applications/Atom.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -204,14 +244,6 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.Roblox.RobloxStudio</string>
-		<key>Name</key>
-		<string>RobloxStudio</string>
-		<key>NewFile</key>
-		<string>/Applications/RobloxStudio.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.bittorrent.uTorrent</string>
 		<key>Name</key>
 		<string>uTorrent</string>
@@ -244,14 +276,6 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.Tresrrr.All2MP3</string>
-		<key>Name</key>
-		<string>All2MP3</string>
-		<key>NewFile</key>
-		<string>/Applications/All2MP3.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.example.SoulseekQt</string>
 		<key>Name</key>
 		<string>SoulseekQt</string>
@@ -268,27 +292,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>org.pqrs.Karabiner-Elements-Preferences-Window</string>
-		<key>Name</key>
-		<string>Karabiner-Elements</string>
-		<key>NewFile</key>
-		<string>/Applications/Karabiner-Elements.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.apple.Console</string>
 		<key>Name</key>
 		<string>Console</string>
 		<key>NewFile</key>
 		<string>/Applications/Utilities/Console.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.ActivityMonitor</string>
-		<key>Name</key>
-		<string>Activity Monitor</string>
-		<key>NewFile</key>
-		<string>/Applications/Utilities/Activity Monitor.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -303,14 +311,6 @@
 		<string>java</string>
 		<key>NewFile</key>
 		<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Safari</string>
-		<key>Name</key>
-		<string>Safari</string>
-		<key>NewFile</key>
-		<string>/Applications/Safari.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
