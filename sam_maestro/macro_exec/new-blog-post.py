@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+# !/usr/bin/python3
 
 import sys
 import os
@@ -9,6 +9,7 @@ import math
 import re
 import datetime
 import unicodedata
+import codecs
 
 import json
 from collections import OrderedDict
@@ -26,7 +27,7 @@ def normalize_char(c):
         return c
 
 def normalize(s):
-    return ''.join(normalize_char(c) for c in s)        
+    return ''.join(normalize_char(c) for c in s)       
 
 def convert_yt_title(d):
     title = d.replace(' - ', '-')
@@ -45,7 +46,11 @@ def convert_yt_date(d):
 
 def convert_yt_creator(d):
     # https://stackoverflow.com/questions/8935111/translating-letters-not-in-7bit-ascii-to-ascii-like-%C5%84-to-n-and-%C4%85-to-a
-    creator = normalize(d)
+    
+    # No long used.. for removing accents in YouTube Creator's names
+    # creator = normalize(d)
+
+    creator = d
     return creator
 
 def convert_yt_duration(d):
@@ -87,7 +92,7 @@ def create_new_blog_post(d):
             blog_post_exists = 1
 
     if blog_post_exists == 0:
-        new_blog_post = open(join(home, new_file),"w+")
+        new_blog_post = codecs.open(join(home, new_file), "w", "utf-8")
         new_blog_post.write("---\n")
         new_blog_post.write("layout: blogpost\n")
         new_blog_post.write("category: blog\n")
