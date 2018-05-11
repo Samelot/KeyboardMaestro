@@ -92,6 +92,7 @@ def create_new_blog_post(d):
             blog_post_exists = 1
 
     if blog_post_exists == 0:
+        # https://stackoverflow.com/questions/3198765/how-to-write-russian-characters-in-file
         new_blog_post = codecs.open(join(home, new_file), "w", "utf-8")
         new_blog_post.write("---\n")
         new_blog_post.write("layout: blogpost\n")
