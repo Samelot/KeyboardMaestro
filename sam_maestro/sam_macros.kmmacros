@@ -269,8 +269,53 @@ except:
 				<key>Actions</key>
 				<array>
 					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.ScooterSoftware.BeyondCompare</string>
+										<key>Name</key>
+										<string>Beyond Compare</string>
+										<key>NewFile</key>
+										<string>/Applications/Beyond Compare.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>None</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>TriggerByName</string>
+								<key>Macros</key>
+								<array>
+									<string>EAA5F680-6F65-490E-AD19-96923042DCE1</string>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
 						<key>MacroActionType</key>
-						<string>TriggerByName</string>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>TriggerByName</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 					</dict>
@@ -278,7 +323,7 @@ except:
 				<key>CreationDate</key>
 				<real>544534193.75468504</real>
 				<key>ModificationDate</key>
-				<real>544733293.08344996</real>
+				<real>548431600.03595304</real>
 				<key>Name</key>
 				<string>[Caps] Trigger Macro By Name</string>
 				<key>Triggers</key>
@@ -295,7 +340,7 @@ except:
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>FBD2E631-EF2A-4FE2-8DD2-F12780C8E634</string>
+				<string>5D3D3087-A50A-4DEC-8214-A2A5136E545C</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -304,6 +349,674 @@ except:
 		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
 		<key>UID</key>
 		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>531977664.82582098</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Alpha</key>
+						<integer>70</integer>
+						<key>ApplicationMask</key>
+						<integer>15</integer>
+						<key>Blue</key>
+						<integer>128</integer>
+						<key>ExcludeRunning</key>
+						<false/>
+						<key>ExcludedApplications</key>
+						<array/>
+						<key>Green</key>
+						<integer>128</integer>
+						<key>HideOthers</key>
+						<false/>
+						<key>IncludedApplications</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ApplicationLauncher</string>
+						<key>Red</key>
+						<integer>0</integer>
+						<key>SwitcherUnderMouse</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>531977664.81061298</real>
+				<key>ModificationDate</key>
+				<real>544116054.21449101</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4352</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3912C9C2-92DA-499A-8A58-6A0BA34153D5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E8A480C3-67E1-4F40-BC9F-538BC6CAC1C7</string>
+		<key>UID</key>
+		<string>15D94BCA-C9C8-402C-955F-5529B5576F21</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>531977664.82582098</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Alpha</key>
+						<integer>50</integer>
+						<key>Blue</key>
+						<integer>128</integer>
+						<key>Green</key>
+						<integer>128</integer>
+						<key>HideOthers</key>
+						<false/>
+						<key>IconSize</key>
+						<integer>64</integer>
+						<key>IncludedApplications</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ProgramSwitcher</string>
+						<key>MouseRollover</key>
+						<true/>
+						<key>Red</key>
+						<integer>0</integer>
+						<key>SortOrder</key>
+						<string>SortByUse</string>
+						<key>SwitcherUnderMouse</key>
+						<false/>
+						<key>WindowType</key>
+						<string>IconGrid</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>531977664.81104898</real>
+				<key>ModificationDate</key>
+				<real>531977664.81104898</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BB7C63CE-CEEE-41C2-9699-C5A4FF279A7F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E8A480C3-67E1-4F40-BC9F-538BC6CAC1C7</string>
+		<key>UID</key>
+		<string>15D94BCA-C9C8-402C-955F-5529B5576F21</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>531977664.82582098</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ClipboardHistorySwitcher</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>531977664.81125498</real>
+				<key>ModificationDate</key>
+				<real>531977664.81125498</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>9</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4864</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>46AFF379-FA28-4820-8474-613A593F2D6A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E8A480C3-67E1-4F40-BC9F-538BC6CAC1C7</string>
+		<key>UID</key>
+		<string>15D94BCA-C9C8-402C-955F-5529B5576F21</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>531977664.82582098</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherPaste</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>531977664.81166798</real>
+				<key>ModificationDate</key>
+				<real>531977664.81166798</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>9</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0C638727-7DF1-43DA-967E-4EC90EED254D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E8A480C3-67E1-4F40-BC9F-538BC6CAC1C7</string>
+		<key>UID</key>
+		<string>15D94BCA-C9C8-402C-955F-5529B5576F21</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>531977664.82582098</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Alpha</key>
+						<integer>70</integer>
+						<key>Blue</key>
+						<integer>128</integer>
+						<key>Green</key>
+						<integer>128</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>WindowSwitcher</string>
+						<key>MouseRollover</key>
+						<true/>
+						<key>Red</key>
+						<integer>0</integer>
+						<key>SortAlphabetically</key>
+						<false/>
+						<key>SwitcherUnderMouse</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>531977664.81196302</real>
+				<key>ModificationDate</key>
+				<real>531977664.81196302</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2B1D5C6A-C6CB-4D2A-9042-C472749B60C6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Switcher Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E8A480C3-67E1-4F40-BC9F-538BC6CAC1C7</string>
+		<key>UID</key>
+		<string>15D94BCA-C9C8-402C-955F-5529B5576F21</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>468047610.89892101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Modifiers</string>
+											<key>ModifiersDown</key>
+											<integer>512</integer>
+											<key>ModifiersUp</key>
+											<integer>0</integer>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>AllWindows</key>
+										<true/>
+										<key>AlreadyActivatedActionType</key>
+										<string>Normal</string>
+										<key>Application</key>
+										<dict>
+											<key>BundleIdentifier</key>
+											<string>com.apple.finder</string>
+											<key>Name</key>
+											<string>Finder</string>
+											<key>NewFile</key>
+											<string>/System/Library/CoreServices/Finder.app</string>
+										</dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ActivateApplication</string>
+										<key>ReopenWindows</key>
+										<false/>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.2</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>36</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>0</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>8</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>256</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>36</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>0</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>125</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>196608</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.2</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>IgnoreCaseString</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SearchReplace</string>
+										<key>Replace</key>
+										<string>_</string>
+										<key>Search</key>
+										<string>.</string>
+										<key>Source</key>
+										<string>Clipboard</string>
+									</dict>
+									<dict>
+										<key>AllWindows</key>
+										<true/>
+										<key>AlreadyActivatedActionType</key>
+										<string>Normal</string>
+										<key>Application</key>
+										<dict>
+											<key>BundleIdentifier</key>
+											<string>com.native-instruments.Komplete Kontrol</string>
+											<key>Name</key>
+											<string>Komplete Kontrol</string>
+											<key>NewFile</key>
+											<string>/Applications/Native Instruments/Komplete Kontrol/Komplete Kontrol.app</string>
+										</dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ActivateApplication</string>
+										<key>ReopenWindows</key>
+										<false/>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.2</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>1</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>768</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.2</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>9</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>256</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.2</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>MoveAndClick</string>
+										<key>Button</key>
+										<integer>0</integer>
+										<key>ClickCount</key>
+										<integer>1</integer>
+										<key>DisplayMatches</key>
+										<false/>
+										<key>DragHorizontalPosition</key>
+										<string>0</string>
+										<key>DragVerticalPosition</key>
+										<string>0</string>
+										<key>Fuzz</key>
+										<integer>15</integer>
+										<key>HorizontalPositionExpression</key>
+										<string>1015</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>MouseMoveAndClick</string>
+										<key>Modifiers</key>
+										<integer>0</integer>
+										<key>MouseDrag</key>
+										<string>None</string>
+										<key>Relative</key>
+										<string>Screen</string>
+										<key>RelativeCorner</key>
+										<string>TopLeft</string>
+										<key>RestoreMouseLocation</key>
+										<false/>
+										<key>VerticalPositionExpression</key>
+										<string>601</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.5</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>KeyCode</key>
+										<integer>125</integer>
+										<key>MacroActionType</key>
+										<string>SimulateKeystroke</string>
+										<key>Modifiers</key>
+										<integer>196608</integer>
+										<key>ReleaseAll</key>
+										<false/>
+										<key>TargetApplication</key>
+										<dict/>
+										<key>TargetingType</key>
+										<string>Front</string>
+									</dict>
+									<dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>0.5</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>CountExpression</key>
+						<string>200</string>
+						<key>MacroActionType</key>
+						<string>Repeat</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>469359040.46988499</real>
+				<key>ModificationDate</key>
+				<real>549655724.40687799</real>
+				<key>Name</key>
+				<string>Alchemy</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>AF65A4B7-46A8-4E86-999C-F1462512382A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>NKS</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.native-instruments.Komplete Kontrol</string>
+					<key>Name</key>
+					<string>Komplete Kontrol</string>
+					<key>NewFile</key>
+					<string>/Applications/Native Instruments/Komplete Kontrol/Komplete Kontrol.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>A4749AD2-679D-472D-AA99-F51B6A73CD7C</string>
+		<key>UID</key>
+		<string>6E956AC9-3321-4215-B901-5F3E260D6FFA</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -843,6 +1556,801 @@ except:
 		<string>F3DB3609-0728-4F91-8067-FC11A9A2E18B</string>
 		<key>UID</key>
 		<string>DCF74B3F-F3C5-4CC7-B0A7-47F6A0A21DBF</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>544635181.64273298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>set IsTabYoutube</string>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Text</string>
+									<key>Text</key>
+									<string>%ChromeURL%</string>
+									<key>TextConditionType</key>
+									<string>Contains</string>
+									<key>TextValue</key>
+									<string>youtube</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>false</string>
+								<key>Variable</key>
+								<string>IsTabYoutube</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>true</string>
+								<key>Variable</key>
+								<string>IsTabYoutube</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>IsTabYoutube</string>
+									<key>VariableConditionType</key>
+									<string>Is</string>
+									<key>VariableValue</key>
+									<string>true</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Teal</string>
+								<key>ActionName</key>
+								<string>prepare VideoData (no youtube tab)</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>Track Height Locking in REAPER
+Mar 28, 2018
+REAPER Mania
+/channel/UCq297H7Ca98HlB5mVFHGSsQ
+https://www.youtube.com/watch?v=5P04TvRSwyk
+476.801</string>
+										<key>Variable</key>
+										<string>BlenderTubePost_VideoData</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>get Title</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var title = document.getElementsByClassName("title style-scope ytd-video-primary-info-renderer")
+title = title[0].innerText;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_Title</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Green</string>
+								<key>ActionName</key>
+								<string>get Date</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var title = document.getElementsByClassName("date style-scope ytd-video-secondary-info-renderer")
+title = title[0].innerText;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_Date</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Purple</string>
+								<key>ActionName</key>
+								<string>get Creator</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var creator = document.getElementById("owner-container");
+creator = creator.firstChild.innerText;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_Creator</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>get CreatorChannel</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var creator = document.getElementById("owner-container");
+creator = creator.getElementsByTagName('a');
+var channel;
+var i, len = creator.length;
+for( i = 0; i &lt; len; i++ ) {
+	if(creator[i].getAttribute('href')) {
+		channel = creator[i].getAttribute('href');
+	}
+}
+channel;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_CreatorChannel</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>get Link</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var video = document.getElementsByTagName("video");
+var i, len = video.length;
+var link;
+for( i = 0; i &lt; len; i++ ) {
+	if(video[i].baseURI) {
+		link = video[i].baseURI;
+	}
+}
+link;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_Link</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Green</string>
+								<key>ActionName</key>
+								<string>get Duration</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>var video = document.getElementsByTagName("video");
+var i, len = video.length;
+var duration;
+for( i = 0; i &lt; len; i++ ) {
+	if(video[i].duration) {
+		duration = video[i].duration;
+	}
+}
+duration;</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>BlenderTubePost_Duration</string>
+										<key>WebBrowser</key>
+										<string>Google Chrome</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Teal</string>
+								<key>ActionName</key>
+								<string>prepare VideoData</string>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Variable%BlenderTubePost_Title%
+%Variable%BlenderTubePost_Date%
+%Variable%BlenderTubePost_Creator%
+%Variable%BlenderTubePost_CreatorChannel%
+%Variable%BlenderTubePost_Link%
+%Variable%BlenderTubePost_Duration%</string>
+										<key>Variable</key>
+										<string>BlenderTubePost_VideoData</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#cd /Users/samenglander/Library/Application\ Support/Keyboard\ Maestro/sam_maestro/macro_exec;
+python3 "$KMVAR_MACRO_EXEC"/new-blog-post.py -d "$KMVAR_BlenderTubePost_VideoData";</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#!/bin/bash
+# script for tesing
+clear
+echo "............script started............"
+sleep 1
+result=`python3 "$KMVAR_MACRO_EXEC"/new-blog-post.py -d "$KMVAR_BlenderTubePost_VideoData"`
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#!/bin/bash
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+result=`python3 "$KMVAR_MACRO_EXEC"/new-blog-post.py -d "$KMVAR_BlenderTubePost_VideoData"`
+echo $result</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>BlenderTubePost_Result</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>DisplayWindow</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5LAQAAKwAAAAEA
+						AABDAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBIZWx2ZXRpY2FOZXVlO30Ke1xj
+						b2xvcnRibDtccmVkMjU1XGdyZWVu
+						MjU1XGJsdWUyNTU7XHJlZDBcZ3Jl
+						ZW4wXGJsdWUwO30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNiBcY2Yy
+						ICVWYXJpYWJsZSVCbGVuZGVyVHVi
+						ZVBvc3RfUmVzdWx0JX0BAAAAIwAA
+						AAEAAAAHAAAAVFhULnJ0ZhAAAABz
+						gexatgEAAAAAAAAAAAAA
+						</data>
+						<key>Text</key>
+						<string>%Variable%BlenderTubePost_Result%</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Text</string>
+									<key>Text</key>
+									<string>%Variable%BlenderTubePost_Result%</string>
+									<key>TextConditionType</key>
+									<string>Contains</string>
+									<key>TextValue</key>
+									<string>creating</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>DisplayBriefly</string>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Text</key>
+								<string>creating new file.</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseString</string>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string></string>
+								<key>Search</key>
+								<string>creating file... </string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>BlenderTubePost_Result</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Text</string>
+									<key>Text</key>
+									<string>%Variable%BlenderTubePost_Result%</string>
+									<key>TextConditionType</key>
+									<string>Contains</string>
+									<key>TextValue</key>
+									<string>existing</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>DisplayBriefly</string>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Text</key>
+								<string>file already exists.</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseString</string>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string></string>
+								<key>Search</key>
+								<string>existing file... </string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>BlenderTubePost_Result</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function () {
+    'use strict';
+	// --- SET KME APP VARIABLE NEEDED TO GET/SET KM VARIABLES ---
+	var kme = Application("Keyboard Maestro Engine");
+	//--- GET A KM VARIABLE --- 
+	//    Returns empty string if it doesn't exist
+  	var newPath = kme.getvariable("BlenderTubePost_Result") || 'Default';
+
+    var a = Application.currentApplication(),
+        sa = (a.includeStandardAdditions = true, a),
+        fi = Application('Finder');
+
+	var strPath = $(newPath).stringByStandardizingPath.js
+
+    fi.reveal(Path(strPath));
+
+    // OR e.g.
+    //fi.reveal(sa.pathTo('downloads folder'));
+
+    fi.activate();
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>544635210.33036602</real>
+				<key>ModificationDate</key>
+				<real>552823429.25914204</real>
+				<key>Name</key>
+				<string>BT_NewBlogPost</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5A50FF4C-B7BD-4756-9268-99BCDF3AA99D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamBlenderTube</string>
+		<key>ToggleMacroUID</key>
+		<string>0038F7E4-BAFD-4BA5-80B6-A1A501C03761</string>
+		<key>UID</key>
+		<string>A210706B-1713-4311-8477-0A2E279104AA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>544635181.64273298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Actions</key>
+						<array/>
+						<key>Collections</key>
+						<dict>
+							<key>CollectionList</key>
+							<array>
+								<dict>
+									<key>CollectionType</key>
+									<string>FinderSelection</string>
+								</dict>
+							</array>
+						</dict>
+						<key>MacroActionType</key>
+						<string>For</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>Path</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#!/bin/bash
+result=`python3 "$KMVAR_MACRO_EXEC"/yt-preview.py -u "$KMVAR_Path"`
+echo $result</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546368736.27305901</real>
+				<key>ModificationDate</key>
+				<real>547134464.85330296</real>
+				<key>Name</key>
+				<string>BT_Thumb</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>38E6A452-6AEE-4984-8750-631E61BFCA18</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamBlenderTube</string>
+		<key>ToggleMacroUID</key>
+		<string>0038F7E4-BAFD-4BA5-80B6-A1A501C03761</string>
+		<key>UID</key>
+		<string>A210706B-1713-4311-8477-0A2E279104AA</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -1755,6 +3263,192 @@ except:
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
+		<real>548430269.59236705</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Menu</string>
+									<key>MenuConditionSelectionType</key>
+									<string>Is</string>
+									<key>MenuConditionType</key>
+									<string>IsEnabled</string>
+									<key>MenuModifiers</key>
+									<integer>256</integer>
+									<key>MenuShortcut</key>
+									<string>C</string>
+									<key>MenuTitle</key>
+									<string>Collapse All</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Collapse unavailable
+</string>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Edit</string>
+									<string>Collapse All</string>
+								</array>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.ScooterSoftware.BeyondCompare</string>
+									<key>Name</key>
+									<string>Beyond Compare</string>
+									<key>NewFile</key>
+									<string>/Applications/Beyond Compare.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelJustThisMacro</string>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CancelJustThisMacro</string>
+						<key>MacroActionType</key>
+						<string>Cancel</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>548431776.98942494</real>
+				<key>ModificationDate</key>
+				<real>548431911.15714896</real>
+				<key>Name</key>
+				<string>Collapse All</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D4A430E0-ED3D-4FC3-B8C9-7AB9F097C048</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamBeyondCompare</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.ScooterSoftware.BeyondCompare</string>
+					<key>Name</key>
+					<string>Beyond Compare</string>
+					<key>NewFile</key>
+					<string>/Applications/Beyond Compare.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>7C100AAC-EDEC-4405-B485-7D9A25FA9455</string>
+		<key>UID</key>
+		<string>EAA5F680-6F65-490E-AD19-96923042DCE1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>548340165.50504601</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>OpenFinderSelection</string>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.Tresrrr.All2MP3</string>
+							<key>Name</key>
+							<string>All2MP3</string>
+							<key>NewFile</key>
+							<string>/Applications/All2MP3.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>548221193.23172104</real>
+				<key>ModificationDate</key>
+				<real>548221236.687819</real>
+				<key>Name</key>
+				<string>convert to mp3</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>63E9C270-2B6F-45AA-BAB6-175C6F90FE0F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamFinder</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.finder</string>
+					<key>Name</key>
+					<string>Finder</string>
+					<key>NewFile</key>
+					<string>/System/Library/CoreServices/Finder.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>E7E8255C-53C6-4215-AAFB-D79B937778DD</string>
+		<key>UID</key>
+		<string>CF412DB0-D764-40D3-9D57-DDCEDAA96A40</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
 		<real>527692646.499219</real>
 		<key>Macros</key>
 		<array>
@@ -2203,56 +3897,125 @@ get url_list
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
-		<real>527692646.499219</real>
+		<real>548430269.59236705</real>
 		<key>Macros</key>
 		<array>
 			<dict>
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>Action</key>
-						<string>ByPasting</string>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Menu</string>
+									<key>MenuConditionSelectionType</key>
+									<string>Is</string>
+									<key>MenuConditionType</key>
+									<string>IsEnabled</string>
+									<key>MenuModifiers</key>
+									<integer>256</integer>
+									<key>MenuShortcut</key>
+									<string>C</string>
+									<key>MenuTitle</key>
+									<string>Expand All</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Expand unavailable</string>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+							</dict>
+						</array>
 						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>Text</key>
-						<string>I’m a hard-working artist/programmer living in Brooklyn, NY with a focus in graphics, textures, and animations. I’m writing to express my interest in learning more about your company and to find out about possible opportunities/internships to work there now or in the future.
-
-Please find my cover letter and resume attached. Feel free to contact me anytime. I look forward to hearing back from you. 
-
-Kind regards,
-Sam Englander
-
-sizeoverload@gmail.com
-6104205737</string>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Edit</string>
+									<string>Expand All</string>
+								</array>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.ScooterSoftware.BeyondCompare</string>
+									<key>Name</key>
+									<string>Beyond Compare</string>
+									<key>NewFile</key>
+									<string>/Applications/Beyond Compare.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelJustThisMacro</string>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CancelJustThisMacro</string>
+						<key>MacroActionType</key>
+						<string>Cancel</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>535302362.99542803</real>
+				<real>548430282.90423405</real>
 				<key>ModificationDate</key>
-				<real>535748578.63786101</real>
+				<real>548431903.26117802</real>
 				<key>Name</key>
-				<string>Jobs1 Paste</string>
+				<string>Expand All</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>jobs1</string>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
-				<string>AE32ACB7-3A38-45B1-88DD-61DEAE5CEA90</string>
+				<string>DCFFA999-92C8-49EA-8A55-F914D9A5FC41</string>
 			</dict>
 		</array>
 		<key>Name</key>
-		<string>Sam</string>
+		<string>SamBeyondCompare</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.ScooterSoftware.BeyondCompare</string>
+					<key>Name</key>
+					<string>Beyond Compare</string>
+					<key>NewFile</key>
+					<string>/Applications/Beyond Compare.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
-		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
+		<string>7C100AAC-EDEC-4405-B485-7D9A25FA9455</string>
 		<key>UID</key>
-		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
+		<string>EAA5F680-6F65-490E-AD19-96923042DCE1</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -3354,452 +5117,6 @@ sizeoverload@gmail.com
 						<key>Actions</key>
 						<array>
 							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var title = document.getElementsByClassName("title style-scope ytd-video-primary-info-renderer")
-title = title[0].innerText;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_Title</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Green</string>
-						<key>ActionName</key>
-						<string>get date</string>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var title = document.getElementsByClassName("date style-scope ytd-video-secondary-info-renderer")
-title = title[0].innerText;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_Date</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-							<dict>
-								<key>Action</key>
-								<string>IgnoreCaseString</string>
-								<key>ActionName</key>
-								<string>remove "Published on "</string>
-								<key>IsDisclosed</key>
-								<false/>
-								<key>MacroActionType</key>
-								<string>SearchReplace</string>
-								<key>Replace</key>
-								<string></string>
-								<key>Search</key>
-								<string>Published on </string>
-								<key>Source</key>
-								<string>Variable</string>
-								<key>Variable</key>
-								<string>BlenderTubePost_Date</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Purple</string>
-						<key>ActionName</key>
-						<string>get creator</string>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var creator = document.getElementById("owner-container");
-creator = creator.firstChild.innerText;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_Creator</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Yellow</string>
-						<key>ActionName</key>
-						<string>get creator_channel</string>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var creator = document.getElementById("owner-container");
-creator = creator.getElementsByTagName('a');
-var channel;
-var i, len = creator.length;
-for( i = 0; i &lt; len; i++ ) {
-	if(creator[i].getAttribute('href')) {
-		channel = creator[i].getAttribute('href');
-	}
-}
-channel;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_CreatorChannel</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Red</string>
-						<key>ActionName</key>
-						<string>get link</string>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var video = document.getElementsByTagName("video");
-var i, len = video.length;
-var link;
-for( i = 0; i &lt; len; i++ ) {
-	if(video[i].baseURI) {
-		link = video[i].baseURI;
-	}
-}
-link;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_Link</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Green</string>
-						<key>ActionName</key>
-						<string>get duration</string>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IncludeStdErr</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteJavaScript</string>
-								<key>NotifyOnFailure</key>
-								<false/>
-								<key>Path</key>
-								<string></string>
-								<key>StopOnFailure</key>
-								<false/>
-								<key>Text</key>
-								<string>var video = document.getElementsByTagName("video");
-var i, len = video.length;
-var duration;
-for( i = 0; i &lt; len; i++ ) {
-	if(video[i].duration) {
-		duration = video[i].duration;
-	}
-}
-duration;</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>TrimResultsNew</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>BlenderTubePost_Duration</string>
-								<key>WebBrowser</key>
-								<string>Google Chrome</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>Group</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>ActionColor</key>
-						<string>Teal</string>
-						<key>ActionName</key>
-						<string>prepare video_data</string>
-						<key>Conditions</key>
-						<dict>
-							<key>ConditionList</key>
-							<array>
-								<dict>
-									<key>ConditionType</key>
-									<string>Text</string>
-									<key>Text</key>
-									<string>1</string>
-									<key>TextConditionType</key>
-									<string>Equal</string>
-									<key>TextValue</key>
-									<string>1</string>
-								</dict>
-							</array>
-							<key>ConditionListMatch</key>
-							<string>All</string>
-						</dict>
-						<key>ElseActions</key>
-						<array>
-							<dict>
-								<key>MacroActionType</key>
-								<string>SetVariableToText</string>
-								<key>Text</key>
-								<string>Sams Blender Party
-May 21, 1989</string>
-								<key>Variable</key>
-								<string>BlenderTubePost_VideoData</string>
-							</dict>
-						</array>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>MacroActionType</key>
-						<string>IfThenElse</string>
-						<key>ThenActions</key>
-						<array>
-							<dict>
-								<key>MacroActionType</key>
-								<string>SetVariableToText</string>
-								<key>Text</key>
-								<string>%Variable%BlenderTubePost_Title%
-%Variable%BlenderTubePost_Date%
-%Variable%BlenderTubePost_Creator%
-%Variable%BlenderTubePost_CreatorChannel%
-%Variable%BlenderTubePost_Link%
-%Variable%BlenderTubePost_Duration%</string>
-								<key>Variable</key>
-								<string>BlenderTubePost_VideoData</string>
-							</dict>
-						</array>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>Action</key>
-						<string>DisplayWindow</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>StyledText</key>
-						<data>
-						cnRmZAAAAAADAAAAAgAAAAcAAABU
-						WFQucnRmAQAAAC5OAQAAKwAAAAEA
-						AABGAQAAe1xydGYxXGFuc2lcYW5z
-						aWNwZzEyNTJcY29jb2FydGYxNDA0
-						XGNvY29hc3VicnRmNDcwCntcZm9u
-						dHRibFxmMFxmbmlsXGZjaGFyc2V0
-						MCBIZWx2ZXRpY2FOZXVlO30Ke1xj
-						b2xvcnRibDtccmVkMjU1XGdyZWVu
-						MjU1XGJsdWUyNTU7XHJlZDBcZ3Jl
-						ZW4wXGJsdWUwO30KXHBhcmRcdHg1
-						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
-						NDBcdHgyODAwXHR4MzM2MFx0eDM5
-						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
-						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
-						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
-						YWN0b3IwCgpcZjBcZnMyNiBcY2Yy
-						ICVWYXJpYWJsZSVCbGVuZGVyVHVi
-						ZVBvc3RfVmlkZW9EYXRhJX0BAAAA
-						IwAAAAEAAAAHAAAAVFhULnJ0ZhAA
-						AAC3VctatgEAAAAAAAAAAAAA
-						</data>
-						<key>Text</key>
-						<string>%Variable%BlenderTubePost_VideoData%</string>
-					</dict>
-					<dict>
-						<key>DisplayKind</key>
-						<string>Window</string>
-						<key>IncludeStdErr</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ExecuteShellScript</string>
-						<key>Path</key>
-						<string></string>
-						<key>Source</key>
-						<string>Nothing</string>
-						<key>Text</key>
-						<string>#cd /Users/samenglander/Library/Application\ Support/Keyboard\ Maestro/sam_maestro/macro_exec;
-python3 "$KMVAR_MACRO_EXEC"/new-blog-post.py -d "$KMVAR_BlenderTubePost_VideoData";</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>TrimResults</key>
-						<true/>
-						<key>TrimResultsNew</key>
-						<true/>
-						<key>UseText</key>
-						<true/>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>544635210.33036602</real>
-				<key>ModificationDate</key>
-				<real>544968463.82774198</real>
-				<key>Name</key>
-				<string>NewBlogPost</string>
-				<key>Triggers</key>
-				<array/>
-				<key>UID</key>
-				<string>5A50FF4C-B7BD-4756-9268-99BCDF3AA99D</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>SamBlenderTube</string>
-		<key>ToggleMacroUID</key>
-		<string>0038F7E4-BAFD-4BA5-80B6-A1A501C03761</string>
-		<key>UID</key>
-		<string>A210706B-1713-4311-8477-0A2E279104AA</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>544635181.64273298</real>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>ActionColor</key>
-						<string>Red</string>
-						<key>ActionName</key>
-						<string>get title</string>
-						<key>Actions</key>
-						<array>
-							<dict>
 								<key>Conditions</key>
 								<dict>
 									<key>ConditionList</key>
@@ -3925,6 +5242,602 @@ eval(numElem)</string>
 		<string>0038F7E4-BAFD-4BA5-80B6-A1A501C03761</string>
 		<key>UID</key>
 		<string>A210706B-1713-4311-8477-0A2E279104AA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>548340165.50504601</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>OpenFinderSelection</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>548339956.55694604</real>
+				<key>ModificationDate</key>
+				<real>548340205.219203</real>
+				<key>Name</key>
+				<string>open files with default application</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>92AE0195-C55D-4206-BC68-F74FF8DAD4D2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamFinder</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.finder</string>
+					<key>Name</key>
+					<string>Finder</string>
+					<key>NewFile</key>
+					<string>/System/Library/CoreServices/Finder.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>E7E8255C-53C6-4215-AAFB-D79B937778DD</string>
+		<key>UID</key>
+		<string>CF412DB0-D764-40D3-9D57-DDCEDAA96A40</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>527692646.499219</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.native-instruments.Komplete Kontrol</string>
+										<key>Name</key>
+										<string>Komplete Kontrol</string>
+										<key>NewFile</key>
+										<string>/Applications/Native Instruments/Komplete Kontrol/Komplete Kontrol.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>NotRunning</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>AllWindows</key>
+								<true/>
+								<key>AlreadyActivatedActionType</key>
+								<string>Normal</string>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.native-instruments.Komplete Kontrol</string>
+									<key>Name</key>
+									<string>Komplete Kontrol</string>
+									<key>NewFile</key>
+									<string>/Applications/Native Instruments/Komplete Kontrol/Komplete Kontrol.app</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>ActivateApplication</string>
+								<key>ReopenWindows</key>
+								<false/>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.bome.miditranslator.pro</string>
+										<key>Name</key>
+										<string>Bome MIDI Translator Pro</string>
+										<key>NewFile</key>
+										<string>/Applications/Bome MIDI Translator Pro.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>NotRunning</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>Application</key>
+											<dict>
+												<key>BundleIdentifier</key>
+												<string>com.bome.miditranslator.pro</string>
+												<key>Name</key>
+												<string>Bome MIDI Translator Pro</string>
+												<key>NewFile</key>
+												<string>/Applications/Bome MIDI Translator Pro.app</string>
+											</dict>
+											<key>ConditionType</key>
+											<string>FrontWindow</string>
+											<key>FrontWindowConditionType</key>
+											<string>Exists</string>
+											<key>IsFrontApplication</key>
+											<false/>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>PauseUntil</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>2</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string></string>
+								<key>Title</key>
+								<string>Hiding Bome MT</string>
+							</dict>
+							<dict>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.bome.miditranslator.pro</string>
+									<key>Name</key>
+									<string>Bome MIDI Translator Pro</string>
+									<key>NewFile</key>
+									<string>/Applications/Bome MIDI Translator Pro.app</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>HideSpecificApp</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>AllWindows</key>
+								<true/>
+								<key>AlreadyActivatedActionType</key>
+								<string>Normal</string>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.bome.miditranslator.pro</string>
+									<key>Name</key>
+									<string>Bome MIDI Translator Pro</string>
+									<key>NewFile</key>
+									<string>/Applications/Bome MIDI Translator Pro.app</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>ActivateApplication</string>
+								<key>ReopenWindows</key>
+								<false/>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>Application</key>
+											<dict>
+												<key>BundleIdentifier</key>
+												<string>com.bome.miditranslator.pro</string>
+												<key>Name</key>
+												<string>Bome MIDI Translator Pro</string>
+												<key>NewFile</key>
+												<string>/Applications/Bome MIDI Translator Pro.app</string>
+											</dict>
+											<key>ConditionType</key>
+											<string>FrontWindow</string>
+											<key>FrontWindowConditionType</key>
+											<string>Exists</string>
+											<key>IsFrontApplication</key>
+											<false/>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>PauseUntil</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>2</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Hiding Bome MT</string>
+								<key>Title</key>
+								<string></string>
+							</dict>
+							<dict>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.bome.miditranslator.pro</string>
+									<key>Name</key>
+									<string>Bome MIDI Translator Pro</string>
+									<key>NewFile</key>
+									<string>/Applications/Bome MIDI Translator Pro.app</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>HideSpecificApp</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>549743498.95363903</real>
+				<key>ModificationDate</key>
+				<real>549835410.10691595</real>
+				<key>Name</key>
+				<string>Open Kontrol &amp; Bome</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.native-instruments.Komplete Kontrol</string>
+							<key>Name</key>
+							<string>Komplete Kontrol</string>
+							<key>NewFile</key>
+							<string>/Applications/Native Instruments/Komplete Kontrol/Komplete Kontrol.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Launch</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>Attach</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>USBDevice</string>
+						<key>Name</key>
+						<string>Launch Control XL</string>
+						<key>TargetType</key>
+						<string>Named</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7477A8A1-2ABD-4EE5-A1A1-7599550EE408</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sam</string>
+		<key>ToggleMacroUID</key>
+		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
+		<key>UID</key>
+		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>548430269.59236705</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Menu</string>
+									<key>MenuConditionSelectionType</key>
+									<string>Is</string>
+									<key>MenuConditionType</key>
+									<string>Exists</string>
+									<key>MenuModifiers</key>
+									<integer>256</integer>
+									<key>MenuShortcut</key>
+									<string>C</string>
+									<key>MenuTitle</key>
+									<string>Open Subfolders</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Please select a folder</string>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Actions</string>
+									<string>Open Subfolders</string>
+								</array>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.ScooterSoftware.BeyondCompare</string>
+									<key>Name</key>
+									<string>Beyond Compare</string>
+									<key>NewFile</key>
+									<string>/Applications/Beyond Compare.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelJustThisMacro</string>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>548430282.90423405</real>
+				<key>CustomIconData</key>
+				<string>KMEP-MultiAction</string>
+				<key>ModificationDate</key>
+				<real>548432094.42391598</real>
+				<key>Name</key>
+				<string>Open Subfolders</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D17EFF90-8D00-4493-8F73-A471DF016229</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamBeyondCompare</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.ScooterSoftware.BeyondCompare</string>
+					<key>Name</key>
+					<string>Beyond Compare</string>
+					<key>NewFile</key>
+					<string>/Applications/Beyond Compare.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>7C100AAC-EDEC-4405-B485-7D9A25FA9455</string>
+		<key>UID</key>
+		<string>EAA5F680-6F65-490E-AD19-96923042DCE1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>527692646.499219</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>I’m a hard-working artist/programmer living in Brooklyn, NY with a focus in graphics, textures, and animations. I’m writing to express my interest in learning more about your company and to find out about possible opportunities/internships to work there now or in the future.
+
+Please find my cover letter and resume attached. Feel free to contact me anytime. I look forward to hearing back from you. 
+
+Kind regards,
+Sam Englander
+
+sizeoverload@gmail.com
+6104205737</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>535302362.99542803</real>
+				<key>ModificationDate</key>
+				<real>545854386.57032394</real>
+				<key>Name</key>
+				<string>Paste jobs1</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>jobs1</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AE32ACB7-3A38-45B1-88DD-61DEAE5CEA90</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sam</string>
+		<key>ToggleMacroUID</key>
+		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
+		<key>UID</key>
+		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>527692646.499219</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>Hello, I'm a artist and programmer living in Brooklyn. A new passion of mine is in education, and after having taught at a summer-camps at NYU, Pixel Academy, and even some substituting at Cottonwood schools, I am confident in my abilities to lead students in a programming environment.
+
+I’m eager to find a great group of people to join in improving the education for younger students. I spend a lot of time staying ahead in this techno-centric era, and would be an excellent mentor to any student interested in gaining insight into game development.
+
+I’d love a chance to talk more.
+
+Best regards,
+Sam Englander
+
+sizeoverload@gmail.com
+610-420-5737</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>535302362.99542803</real>
+				<key>ModificationDate</key>
+				<real>545854503.79976404</real>
+				<key>Name</key>
+				<string>Paste jobsedu</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>jobsedu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CF03E640-DA94-41BB-9C73-1524660E58CA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sam</string>
+		<key>ToggleMacroUID</key>
+		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
+		<key>UID</key>
+		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -4973,6 +6886,73 @@ screencapture "$HOME/Desktop/fuc.png"</string>
 		<string>12CAEEAA-BD2F-4849-B71F-408C3E97FA48</string>
 		<key>UID</key>
 		<string>C517314C-3D8E-4DAF-AEC2-03EFB04BD4F1</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>548430269.59236705</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Edit</string>
+							<string>Select Orphans</string>
+							<string>Both Sides</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.ScooterSoftware.BeyondCompare</string>
+							<key>Name</key>
+							<string>Beyond Compare</string>
+							<key>NewFile</key>
+							<string>/Applications/Beyond Compare.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>548431776.98942494</real>
+				<key>ModificationDate</key>
+				<real>548432284.16749597</real>
+				<key>Name</key>
+				<string>Select Orphans</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>51BF7B44-96E5-4529-8EE2-D258EF614488</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>SamBeyondCompare</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.ScooterSoftware.BeyondCompare</string>
+					<key>Name</key>
+					<string>Beyond Compare</string>
+					<key>NewFile</key>
+					<string>/Applications/Beyond Compare.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>7C100AAC-EDEC-4405-B485-7D9A25FA9455</string>
+		<key>UID</key>
+		<string>EAA5F680-6F65-490E-AD19-96923042DCE1</string>
 	</dict>
 </array>
 </plist>

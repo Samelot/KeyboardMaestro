@@ -19,6 +19,21 @@ import io
 from os import listdir
 from os.path import isfile, join
 
+def check(c):
+	# pattern = r'[^\-.#a-z0-9]'
+	pattern = r'[^\.#a-z0-9]'
+	if re.search(pattern, c):
+		return False
+	else:
+		return c
+		
+def count_letters(word):
+	for i, c in reversed(list(enumerate(word))):
+		# print(word[c])
+		if check(word[i]):
+			# print(i, c)
+			return i+1
+
 def normalize_char(c):
 	try:
 		cname = unicodedata.name(c)
@@ -32,14 +47,28 @@ def normalize(s):
 
 def convert_yt_title(d):
 	title = d.replace(' - ', '-')
+	title = title.replace(' + ', '+')
+	title = title.replace('&', 'and')
 	title = title.replace('|', '-')
 	title = title.replace(' ', '-')
-	title = ''.join(c for c in title if c.isalnum() or c =='-' or c =='_')
+	title_length = len(title) - 1
+	title = ''.join(c for c in title if c.isalnum() or c =='-' or c == '+' or c =='_')
+	
+	index = count_letters(title)
+	title = title[:index] + title[len(title):]
+
 	title = title.lower()
+	
+	# word = 'hi-i+blender-i:)-:)'
+	# index = count_letters(word)
+	# print(word[:index] + word[len(word):])
+
 	return title
 
 def convert_yt_date(d):
-	date = d.replace(',', '')
+	date = d.split("on ")[1] # handles removal of "Streamed live on " and "Published on "
+	print(date)
+	date = date.replace(',', '')
 	month, day, year = date.split(' ')
 	yt_months_array = {'Jan':1,'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}
 	# print(day)
